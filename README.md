@@ -1,2 +1,44 @@
 # Smoke-Detect-by-YoloV5
   Yolov5 real time smoke detection system
+
+### 本原创项目长期更新，旨在完成校园异常行为实时精检测，做到集成+N次开发+优化（不止局限于调包）为止，近期将不断更新以下模型+数据+标注文件+教程。关注博主，Star 一下github，一起开始美妙的目标检测之路吧~~
+
+一、项目展示
+
+![1594465738795](./0.5.png)
+
+![1594465738795](0.png)
+
+![1594465738795](./1.png)
+
+
+
+左图为原图，右图为推理后的图片，以图片方式展示，视频流和实时流也能达到这个效果，由于视频大小原因，暂不上传，感兴趣的朋友细细往下看，并点个关注哟！
+
+测试配置：GTX1050ti，不堪入目，但是实验效果还不错，再这样弱的配置下，使用YOLOv5s，YOlov5m等皆能达到30fps。
+二、项目资源共享
+1：训练图片：香烟图片+吸烟手势+烟雾
+
+香烟图片：自己编写爬虫爬了1w张，筛选下来有近1000张可用，以及其他途径获取到的，总共暂时5k张，未来会越来越多，后续需要的可以私聊我，现在先放出5k张图片，另外加上自己辛辛苦苦使用Labelimg标注的几千张图片的XML文件也一并送上，香烟图片质量可查传送门：链接：https://pan.baidu.com/s/1t8u94x51TO7pLciU8AoaiQ
+提取码：n2wr：如下图
+全部链接传送门
+
+最后再发一次所有的链接！
+
+香烟数据集：链接：https://pan.baidu.com/s/1t8u94x51TO7pLciU8AoaiQ
+提取码：n2wr
+
+吸烟手势数据集：链接：https://pan.baidu.com/s/1BSH4yn3GBzF3hDTWAqKzDQ
+提取码：9r8t
+
+烟雾数据集：链接：https://pan.baidu.com/s/1RKvkkmfpHiPunkFMAEdoAQ
+提取码：ag0x
+
+YOLOv5 原作者github：https://github.com/ultralytics/yolov5
+
+我的github ：https://github.com/CVUsers/Smoke-Detect-by-YoloV5/tree/master 欢迎star ，将长期更新！
+
+最后还有很多知识点没分享，关注一下博主，下次分享。
+
+另外欢迎加入深度学习算法交流群，与群内工程师朋友门一起交流学术，共商算法，加油！
+![1594465738795](./图片1.png)

@@ -1,7 +1,7 @@
 import os
 import random
 
-trainval_percent = 0.1  # 可自行进行调节
+trainval_percent = 1  # 可自行进行调节
 train_percent = 1
 xmlfilepath = './data/Annotations'
 txtsavepath = './data/ImageSets\Main'
@@ -34,15 +34,3 @@ for i in list:
 ftrain.close()
 # fval.close()
 ftest.close()
-
-# import os
-# import cv2
-#
-# for file in os.listdir(r'D:\Memory_Demo\something_to_use\yolov5\data\images'):
-#     # print(file)
-#     img = cv2.imread(r'D:/Memory_Demo/something_to_use/yolov5/data/images/{}'.format(file))
-#     try:
-#         cv2.imshow('s', img)
-#         # cv2.waitKey()
-#     except:
-#         print(file)
