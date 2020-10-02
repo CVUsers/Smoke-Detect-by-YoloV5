@@ -8,8 +8,8 @@
 
 
 # train and val datasets (image directory or *.txt file with image paths)
-train: D:\Memory_Demo\something_to_use\yolov5\data\train.txt  # 上面我们生成的train，根据自己的路径进行更改
-val: D:\Memory_Demo\something_to_use\yolov5\data\test.txt  # 上面我们生成的test
+train: data\train.txt  # 上面我们生成的train，根据自己的路径进行更改
+val: data\test.txt  # 上面我们生成的test
 #test: ../coco/test-dev2017.txt  # 20k images for submission to https://competitions.codalab.org/competitions/20794
 
 # number of classes
