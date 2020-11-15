@@ -50,5 +50,7 @@ YOLOv5 原作者github：https://github.com/ultralytics/yolov5
 ![1594465738795](./图片1.png)
 
 ——————————————————————二次更新——————
+
+
 做了模型优化，提高了一些效果，欢迎大家查看这篇文章：https://blog.csdn.net/l641208111/article/details/109286497详细查看，算法开源了，代码加模型加优化策略加导出加Openvino推理加数据等等，
 公众号：DeepAI 视界回复：yolov5香烟领取全部。
